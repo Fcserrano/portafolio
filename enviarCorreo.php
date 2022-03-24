@@ -10,3 +10,4 @@ $mensajeCompleto = "\n email: " .$email . "\n" . "asunto: "
             . $asunto . "\n" . "mensaje: " . $mensaje;
 
 mail($destino, $asunto, $mensajeCompleto, $header);
+header('Location: index.html');
