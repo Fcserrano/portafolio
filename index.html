@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Kanit&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="mediaquery.css">
+   <script src="https://kit.fontawesome.com/99953d61b9.js" crossorigin="anonymous"></script>
+   <title>Portafolio</title>
+   <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+<body>
+
+   <!-- cabecera -->
+   <header class="navbar-bg">
+      <nav class="navbar">
+         <div>
+            <a href="#" class="logo">F<span>S</span></a>
+         </div>
+
+         <ul class="links">
+            <li><a href="#sobre">About</a></li>
+            <li><a href="#habilidades">Skills</a></li>
+            <li><a href="#proyectos">Projects</a></li>
+            <li><a href="#contacto">Contact</a></li>
+         </ul>
+      </nav>
+   </header>
+
+
+   <!-- resumen -->
+   <section class="container profile-section" id="sobre">
+      <div class="profile-container">
+         <h1>I'm <span>Fernando</span> Serrano</h1>
+         <p class="profile-resume">i'm 24 years old and i'm a Full stack developer, who wants to learn and challenge
+            myself, this portofolio was made with css pure, hope you like it!</p>
+         <p class="profile-resume">I am currently focused on becoming a backend developer. Always increasing my
+            knowledge
+         </p>
+         <a href="https://github.com/Fcserrano" target="_blank" class="git-button"><i
+               class="fa-brands fa-github"></i>Github</a>
+      </div>
+
+      <div class="profile-image">
+         <img src="img/foto_perfil.svg" alt="foto_perfil">
+      </div>
+   </section>
+
+   <!-- habilidades -->
+   <section class="skills-section" id="habilidades">
+      <h1 class="skills-title">Technologies with which I had contact</h1>
+      <div class="skills-container">
+         <div class="skills-flex">
+
+            <div class="skills-card">
+               <div class="img-container">
+                  <img src="/img/languages/java.svg" alt="Java icon">
+               </div>
+               <p>Java</p>
+            </div>
+
+            <div class="skills-card">
+               <div class="img-container">
+                  <img src="/img/languages/spring.png" alt="Spring icon">
+               </div>
+               <p>Spring</p>
+            </div>
+
+            <div class="skills-card">
+               <div class="img-container">
+                  <img src="/img/languages/mySQL.svg" alt="MySQL icon">
+               </div>
+               <p>MySQL</p>
+            </div>
+
+            <div class="skills-card">
+               <div class="img-container">
+                  <img src="/img/languages/bootstrap.png" alt="Bootstrap icon">
+               </div>
+               <p>Bootstrap</p>
+            </div>
+
+            <div class="skills-card">
+               <div class="img-container">
+                  <img src="/img/languages/css.svg" alt="CSS icon">
+               </div>
+               <p>CSS</p>
+            </div>
+
+            <div class="skills-card">
+               <div class="img-container">
+                  <img src="/img/languages/javascript.png" alt="JS icon">
+               </div>
+               <p>Javascript</p>
+            </div>
+
+         </div>
+      </div>
+   </section>
+
+
+
+   <!-- proyecto -->
+   <main class="container projects-section" id="proyectos">
+      <h1 style="margin-bottom: 50px;">Projects</h1>
+      <div class="projects-grid">
+         <div class="projects-cards">
+            <a href="https://app-spring-blog.herokuapp.com/posts"><img src="https://i.ibb.co/r27tvkm/Screenshot-1.png"
+                  alt="coming soon"></a>
+            <h3>Spring blog</h2>
+               <p>application developed in spring, works as a personal blog</p>
+         </div>
+
+         <div class="projects-cards">
+            <a href="#"><img src="img/under-construction.jpg" alt="coming soon"></a>
+            <h3>Under-construction</h2>
+               <p>Coming soon</p>
+         </div>
+
+         <div class="projects-cards">
+            <a href="#"><img src="img/under-construction.jpg" alt="coming soon"></a>
+            <h3>Under-construction</h2>
+               <p>Coming soon</p>
+         </div>
+
+         <div class="projects-cards">
+            <a href="#"><img src="img/under-construction.jpg" alt="coming soon"></a>
+            <h3>Under-construction</h2>
+               <p>Coming soon</p>
+         </div>
+
+         <div class="projects-cards">
+            <a href="#"><img src="img/under-construction.jpg" alt="coming soon"></a>
+            <h3>Under-construction</h2>
+               <p>Coming soon</p>
+         </div>
+
+         <div class="projects-cards">
+            <a href="#"><img src="img/under-construction.jpg" alt="coming soon"></a>
+            <h3>Under-construction</h2>
+               <p>Coming soon</p>
+         </div>
+
+      </div>
+   </main>
+
+
+   <!-- contacto -->
+   <section class="contact-section" id="contacto">
+      <h1>Contact me</h1>
+      <form class="contact-form" action="enviarCorreo.php" method="post">
+         <div class="form-fields">
+            <input type="text" name="email" placeholder="Email" class="form-field" autocomplete="none" required>
+            <input type="text" name="subject" placeholder="Subject" class="form-field" autocomplete="none" required>
+            <textarea  cols="24" name="message" rows="5" class="form-message" placeholder="Write a message here..." required></textarea>
+            <input type="submit" name="submit" value="Submit" class="form-submit">
+         </div>
+      </form>
+
+      <div class="icons-container">
+         <p style="color: white;">Social</p>
+            <span>
+               <a href="https://github.com/Fcserrano/portafolio" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </span>
+            <span>
+               <a href="https://www.linkedin.com/in/fernando-serrano-7740a8219/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </span>
+      </div>
+   </section>
+
+   <script src="main.js"></script>
+</body>
+
+</html>

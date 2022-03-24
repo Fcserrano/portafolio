@@ -1,0 +1,77 @@
+/* configuraciones */
+:root {
+    --main-bg-color: #1b1d20;
+    --secondary-bg-color: #282a2d ;
+    --text-color: #FFFFFF;
+    --subtext-color: #b0b2b3;
+    --button-color: #8c70d4;
+    --button-hover: #a281f3;
+  }
+
+/* mediaquery */
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 2rem;
+    }
+
+    .logo{
+        margin-left: 0;
+    }
+
+    .container{
+        max-width: 100%;
+    }
+    
+    .profile-section{
+        flex-wrap: wrap;
+        margin-left: 15px;
+    }
+
+    .navbar{
+        display: block;
+        margin: 0;
+    }
+
+    .navbar ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .links li a:hover{
+        background:none;
+        color: var(--button-color)
+    }
+
+    .navbar div{
+        text-align: center;
+    }
+
+    .navbar-bg{
+        position:absolute;
+        top: 0;
+    }
+
+    .links>li{
+        display: flex;
+    }
+
+    .links>li a{
+        margin: 10px 5px;
+        padding: 0px 5px;
+    }
+
+    .skills-title{
+        font-size: 1.5rem;
+    }
+
+    .projects-grid{
+        grid-template-columns: 1fr;
+    }
+    
+    .projects-cards a img{
+        min-width:100%
+    }
+    
+  }
+
